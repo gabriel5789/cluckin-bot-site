@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous">
+    <title>Cluckin' Bot</title>
+</head>
+
+<body>
+    <nav class="header">
+        <div class="header__logo">
+            <a href="./index.html">
+                <img src="./img/galinha.png" alt="Logo" class="logo">
+            </a>
+            <a class="header__title" href="./index.html">
+                <h1 class="">Cluckin' Bot</h1>
+            </a>
+        </div>
+        <div class="dropdown">
+            <i class="fas fa-bars dropbtn"></i>
+            <div class="header__links dropdown-content">
+                <a href="./pages/sobre.html" class="header__link">Sobre</a>
+                <a href="./pages/robo.html" class="header__link">Robô</a>
+                <a href="./pages/galeria.html" class="header__link">Galeria</a>
+                <a href="./pages/equipe.html" class="header__link">Equipe</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="pagina_inicial">
+            <h1 class="section__title_inicial">
+                Bem vindo!
+            </h1>
+            <h2 class="section__title_3">Somos o grupo do "Cluckin' Bot"!
+                Aqui você acompanha todo o processo de criação do nosso robô: (Sobre, O robô, galeria de fotos e equipe)
+            </h2>
+            <img class="pagina_inicial__img" src="./img/pag-inicial.png" alt="Galo com armadura e olhos verdes">
+        </section>
+    </main>
+
+    <!-- PAGINA NÃO IMPLEMENTADA  -->
+    <!-- <div class="container__naoImplementado">
+        <h1>Ops! Esta página ainda não foi implementada</h1>
+        <p>Acesse as outras páginas através do menu.<br>Páginas já implementadas:</p>
+        <ul class="container__naoImplementado__list">
+            <li>Sobre</li>
+            <li>Equipe</li>
+            <li>Galeria</li>
+        </ul>
+    </div> -->
+
+    <div class="footer">
+        <div class="footer__container">
+            <h3 class="footer__title">Quem Somos</h3>
+            <p class="footer__text">
+                Somos um grupo da Faculdade de Informática e Administração Paulista (FIAP), de Sistemas de informação.
+                Esse site
+                corresponde tudo da criação do nosso robo de batalha, para a competição na faculdade.
+            </p>
+        </div>
+
+        <form action="" id="contato" method="GET" class="footer__container">
+            <h3 class="footer__title">Contato</h3>
+            <div>
+                <label for="nome">Nome</label>
+                <input class="footer__contato__campo" id="nome" name="nome" type="text">
+                <label for="email">E-mail</label>
+                <input class="footer__contato__campo" id="email" name="email" type="email">
+                <label for="comentario">Mensagem</label>
+                <textarea class="footer__contato__campo" id="comentario" name="comentario" id="" cols="30"
+                    rows="5"></textarea>
+            </div>
+            <input class="button" type="submit"></input>
+        </form>
+
+    </div>
+</body>
+
+</html>
